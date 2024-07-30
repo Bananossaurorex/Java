@@ -1,0 +1,27 @@
+
+package com.mycompany.aritimeticos;
+
+/**
+ *
+ * @author aluno.den
+ */
+public class Aritimeticos {
+
+    public static void main(String[] args) {
+        //Declarando variáveis
+        int a = 18;
+        int b = 2;
+        
+        //Operadores aritimeticos
+        int somar = a + b;
+        int subtrair = a - b;
+        int multiplicar = a * b;
+        int dividir = a / b;
+        
+        //Exibindo resultados
+        System.out.println("Somar: " + somar);
+        System.out.println("Subtrair: " + subtrair);
+        System.out.println("Multiplicar: " + multiplicar);
+        System.out.println("Dividir: " + dividir);
+    }
+}
